@@ -1,0 +1,4 @@
+(
+  title: "First Game",
+  dimensions: Some((800, 600)),
+)

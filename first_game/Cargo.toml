@@ -1,0 +1,13 @@
+[package]
+name = "first_game"
+version = "0.1.0"
+authors = ["zengl"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+amethyst = {version = "0.15.3", features = ["no-slow-safety-checks", "vulkan"]}
+log = { version = "0.4.8", features = ["serde"] }
+strum = "0.18.0"
+strum_macros = "0.18.0"
